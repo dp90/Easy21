@@ -9,11 +9,11 @@ The files in this repository are:
 - main.cpp: uses the Easy21 class to compute results with the different methods. 
 
 ## Monte-Carlo 
-The optimal value function as computed with the Monte-Carlo method (5,000,000 episodes in 6.24 seconds) is shown below (Sutton & Barto, p. 99).  
+The optimal value function as computed with the Monte-Carlo method (5,000,000 episodes in 6.24 seconds) is shown below (Sutton & Barto, p. 99).
 ![alt text](https://github.com/dp90/Easy21/blob/master/Images/Vmaxplot.jpeg "Monte-Carlo optimal value function")
 
 ## SARSA(lambda) - Table lookup 
-The SARSA(lambda) method with table lookup (Sutton & Barto, p. 303 and [here](http://incompleteideas.net/book/first/ebook/node77.html)) was compared to the Monte-Carlo method by computing the mean squared error (MSE) between the action value function Q(s,a) computed in the previous section, and Q(s,a) computed with SARSA(lambda) over 1000 episodes at values of lambda = 0.0, 0.1, ..., 1.0. The results can be found below.
+The SARSA(lambda) method with table lookup (Sutton & Barto, p. 303 and [here](http://incompleteideas.net/book/first/ebook/node77.html)) was compared to the Monte-Carlo method by computing the mean squared error (MSE) between the action value function Q(s,a) computed in the previous section, and Q(s,a) computed with SARSA(lambda) over 1000 episodes at values of lambda = 0.0, 0.1, ..., 1.0. The results can be found below.  
 ![alt text](https://github.com/dp90/Easy21/blob/master/Images/SARSA_table_lambda_vs_MSE.jpeg "SARSA table lookup: lambda vs MSE")
 
 For the values of lambda = 0.0 and lambda = 1.0, the MSE is also computed and plotted at the end of each episode, as shown below.  
