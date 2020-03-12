@@ -9,7 +9,7 @@ The files in this repository are:
 - main.cpp: uses the Easy21 class to compute results with the different methods. 
 
 ## Monte-Carlo 
-The optimal value function as computed with the Monte-Carlo method (5,000,000 episodes in 6.24 seconds) is shown below (Sutton & Barto, p. 99).
+The optimal value function as computed with the Monte-Carlo method (5,000,000 episodes in 6.24 seconds) is shown below (Sutton & Barto, p. 99).  
 ![alt text](https://github.com/dp90/Easy21/blob/master/Images/Vmaxplot.jpeg "Monte-Carlo optimal value function")
 
 ## SARSA(lambda) - Table lookup 
