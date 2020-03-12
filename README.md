@@ -19,7 +19,7 @@ The SARSA(lambda) method with table lookup (Sutton & Barto, p. 303 and [here](ht
 For the values of lambda = 0.0 and lambda = 1.0, the MSE is also computed and plotted at the end of each episode, as shown below.  
 ![alt text](https://github.com/dp90/Easy21/blob/master/Images/SARSA_table_episode_vs_MSE.jpeg "SARSA table lookup: episode vs MSE")
 
-## SARSA(lambda) - Table lookup
+## SARSA(lambda) - Linear function approximation
 The SARSA(lambda) method with a linear action value function approximation (Sutton & Barto, p. 307) was compared to the Monte-Carlo method by computing the mean squared error (MSE) between the action value function Q(s,a) computed with the Monte-Carlo method, and Q(s,a) computed with SARSA(lambda) over 1000 episodes at values of lambda = 0.0, 0.1, ..., 1.0. The results can be found below.  
 ![alt text](https://github.com/dp90/Easy21/blob/master/Images/SARSA_LFA_lambda_vs_MSE.jpeg "SARSA LFA: lambda vs MSE")
 
